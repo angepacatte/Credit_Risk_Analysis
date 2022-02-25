@@ -22,7 +22,7 @@ Oversampling Models
     -Balanced accuracy score = 0.649
     -Classification report = 
     
-    ![image](https://user-images.githubusercontent.com/85581208/155741865-9b001738-d814-4174-bb8c-80858814eef5.png)
+   ![image](https://user-images.githubusercontent.com/85581208/155741865-9b001738-d814-4174-bb8c-80858814eef5.png)
   
   
   The balanced accuracy score is ok but not great at 65%.  The reliability of the model is moderate.
@@ -41,7 +41,7 @@ Oversampling Models
       -Balanced accuracy score = 0.529
       -Classification report = 
       
-      ![image](https://user-images.githubusercontent.com/85581208/155748444-ab7cac79-b6ee-4688-9ce4-6ab6fbf65fce.png)
+   ![image](https://user-images.githubusercontent.com/85581208/155748444-ab7cac79-b6ee-4688-9ce4-6ab6fbf65fce.png)
       
       
     The average precision score is 0.99 and the recall score is 0.45.  The f1 is 0.62.
@@ -51,7 +51,7 @@ Oversampling Models
       -Balanced accuracy score = 0.637
       -Classification report
       
-      ![image](https://user-images.githubusercontent.com/85581208/155749018-c485c9ce-8322-4266-a3fb-0afe36d0776f.png)
+   ![image](https://user-images.githubusercontent.com/85581208/155749018-c485c9ce-8322-4266-a3fb-0afe36d0776f.png)
       
       
       
@@ -64,7 +64,7 @@ Oversampling Models
       -Balanced accuracy score = 0.787
       - Classification report
       
-      ![image](https://user-images.githubusercontent.com/85581208/155750699-656fed55-7fd7-4b14-8aed-e5c2ed94973a.png)
+   ![image](https://user-images.githubusercontent.com/85581208/155750699-656fed55-7fd7-4b14-8aed-e5c2ed94973a.png)
       
       
       
@@ -78,7 +78,7 @@ Oversampling Models
       -balanced accuracy score = 0.925
       - Classification report
       
-      ![image](https://user-images.githubusercontent.com/85581208/155750990-ae344d86-5f34-4300-9e0b-44c33c84e111.png)
+   ![image](https://user-images.githubusercontent.com/85581208/155750990-ae344d86-5f34-4300-9e0b-44c33c84e111.png)
 
 
       -The average precision score is 0.99 as in all models

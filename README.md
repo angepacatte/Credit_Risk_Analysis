@@ -3,7 +3,7 @@
 
 ## Overview of the Analysis
 
-The purpose of this analysis was to analyze the relationship of multiple factors and their relation with the status of a loan.  The data provided had many columns of data.  Too many to even list here. Before assigning x and y, all column data types had to be converted to floats using the get_dummies() function. Next the data was split up into x and y. X being all columns excluding loan_status.  Y was the loan_status data.  This set up allowed for training certain models on the data.
+The purpose of this analysis was to look at the relationship between different factors and their relation with the status of a loan.  The data provided had many columns of data. Before assigning x and y, all column data types had to be converted to floats using the get_dummies() function. Next the data was split up into x and y. X being all columns excluding loan_status.  Y was the loan_status data.  This set up allowed for performing training using different models on the data.
 
 ![image](https://user-images.githubusercontent.com/85581208/155741718-459006de-640d-41f8-8d6f-eeda7e97ea57.png)
 
@@ -13,7 +13,7 @@ After assigning the data into the variables X and Y, it was divided into trainin
 ![image](https://user-images.githubusercontent.com/85581208/155741442-d4a99da6-c8c8-4a54-b275-4dde43ab5a9a.png)
 
 
-The first two models were oversampling algorithms, RandomOverSampler and SMOTE.  The next section included an undersampling algorithm, ClusterCentroids.  Lastly a combination over and under sampling algorithm was applied to the data, SMOTEENN.  The results and comparisons of these will be discussed below.  The last part of the analysis including boosting the data set with two ensemble learning algorithms, Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier.
+The first two models were oversampling algorithms, RandomOverSampler and SMOTE.  The next section included an undersampling algorithm, ClusterCentroids.  Lastly a combination of over and under sampling algorithm was applied to the data, SMOTEENN.  The results and comparisons of these will be discussed below.  The last part of the analysis included boosting the data set with two ensemble learning algorithms, Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier.
 
 ## Results
 
@@ -88,7 +88,7 @@ Oversampling Models
       
       ## Summary
       
-      After assessing all 6 models, the two ensemble learner models are the best fits for the data. The Easy Ensemble Classfier is the best of thos two. It is a good balance of accuracy an sensitivity.  The f1 score of 0.97 shows the test.  The sensitivity and precision are very accurate.  This is also reflected in the accuracy score of 0.925. 
+      After assessing all 6 models, the two ensemble learner models are the best models for the data. The Easy Ensemble Classfier is the best of those two. It is a good balance of accuracy and sensitivity.  The f1 score of 0.97 shows the test.  The sensitivity and precision are very accurate.  This is also reflected in the accuracy score of 0.925. 
       The balanced ranadom forest classifier had a lower accuracy score of 0.787.  The f1 score was only slightly lower at 0.95.  These models specificity are the best.  Not only are they senstive in assessing high risk loans.  They are accurate.
         The least accurate model was ClusterCentroids undersampling model.  Accuracy score of 0.529 and f1 is 0.62.  The other models were under 0.8 for the f1 score which is a good measure of both precision and recall.  The closer to 1 the f1 score is the better the model is in sensitivity and specificity together.
 
